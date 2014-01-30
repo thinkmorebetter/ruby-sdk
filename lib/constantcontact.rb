@@ -10,11 +10,11 @@ require 'json'
 require 'cgi'
 require 'cgi/session'
 require 'cgi/session/pstore'
+require 'constantcontact/version.rb'
 
 
 module ConstantContact
   autoload :Api, 'constantcontact/api'
-  autoload :Version, 'constantcontact/version'
 
   module Auth
     autoload :OAuth2, 'constantcontact/auth/oauth2'
