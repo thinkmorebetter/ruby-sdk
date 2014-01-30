@@ -14,6 +14,7 @@ require 'cgi/session/pstore'
 
 module ConstantContact
   autoload :Api, 'constantcontact/api'
+  autoload :Version, 'constantcontact/version'
 
   module Auth
     autoload :OAuth2, 'constantcontact/auth/oauth2'
